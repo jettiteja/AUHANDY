@@ -1,0 +1,111 @@
+.GRID {
+    background-color:blue;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: white;
+}
+
+.service span {
+    color: orange;
+}
+
+.one {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.end {
+    background-color: blue;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+.abc{
+    margin-left: 25px;
+}
+.iconss {
+    list-style: none;
+}
+
+.iconss span {
+    color: orange;
+}
+
+.install {
+    list-style: none;
+}
+
+.installationn {
+    list-style: none;
+}
+
+.end span {
+    color: orange;
+    font-size: large;
+    font: bold;
+}
+
+.end span1 {
+    color: orange;
+}
+
+.end span2 {
+    color: orange;
+    font-size: xx-large;
+}
+
+.code {
+    text-align: center;
+    padding-top: 40px;
+    border: white dotted 1px;
+}
+
+.installation {
+    padding-top: 56px;
+}
+
+.text{
+    color: orange;
+}
+
+.projects {
+    margin: 20px;
+    padding-bottom: 50px;
+    @media (max-width: 992px) {
+        img {
+            margin: 10px;
+        }
+    }
+}
+
+.image{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.projpad{
+    padding: 0%;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color:rgba(60, 60, 224, 0.7);
+    opacity: 0;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+.image:hover .overlay{
+    visibility: visible;
+    opacity: 1;
+}
+.overlay h6{
+    color: orange;
+}

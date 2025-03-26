@@ -1,0 +1,109 @@
+.service span {
+    color: orange;
+}
+.OURSERVICES {
+    padding: 40px 10px;
+    margin: 50px;
+}
+.clients {
+    background-color: rgb(232, 229, 229);
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    @media (max-width: 992px) {
+        img {
+            margin: 10px;
+        }
+    }
+}
+.engine{
+    border: blue solid 1px;
+    padding: 25px 10px;
+    margin: 20px;
+    background-color: rgb(216, 222, 229);
+}
+.engine:hover{
+    background-color: blue;
+    color: white;
+}
+
+.OURCONTACT {
+    padding-top: 20px;
+}
+.Electrical {
+    padding-top: 20px;
+}
+
+.Installation {
+    padding-top: 55px;
+}
+
+section.boxes {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.OFF p {
+    margin: 50px;
+    padding: 15px;
+    border: 1px dotted;
+}
+
+.end {
+    background-color: blue;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+.iconss {
+    list-style: none;
+}
+
+.iconss span {
+    color: orange;
+}
+.abc{
+    margin-left: 25px;
+}
+.install {
+    list-style: none;
+}
+
+.installationn {
+    list-style: none;
+}
+
+.end span {
+    color: orange;
+    font-size: large;
+    font: bold;
+}
+
+.end span1 {
+    color: orange;
+}
+
+.end span2 {
+    color: orange;
+    font-size: xx-large;
+}
+
+.code {
+    text-align: center;
+    padding-top: 40px;
+    border: white dotted 1px;
+}
+
+.installation {
+    padding-top: 56px;
+}
+
+.GRID {
+    background-color: blue;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: white;
+    ;
+}

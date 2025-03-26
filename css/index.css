@@ -1,0 +1,371 @@
+.end {
+    background-color: black;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+.heading {
+    position: relative;
+    display: inline;
+}
+
+.heading::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    background-color: white;
+    width: 22%;
+    bottom: 5%;
+    left: 35%;
+}
+
+.headings {
+    position: relative;
+    display: inline;
+}
+
+.headings::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    background-color: blue;
+    width: 4%;
+    bottom: 0%;
+    left: 48%;
+}
+
+.textares {
+    resize: auto;
+}
+
+.end span {
+    color: orange;
+    font-size: large;
+    font: bold;
+}
+
+.end span1 {
+    color: orange;
+}
+
+.end span2 {
+    color: orange;
+    font-size: xx-large;
+}
+
+.installation {
+    padding-top: 56px;
+}
+
+.iconss {
+    list-style: none;
+
+}
+
+.iconss span {
+    color: orange;
+}
+
+.install {
+    list-style: none;
+}
+
+.installationn {
+    list-style: none;
+}
+
+.abc {
+    margin-left: 25px;
+}
+
+.projpad {
+    padding: 0px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(60, 60, 224, 0.7);
+    opacity: 0;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.imagess {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.imagess:hover .overlay {
+    visibility: visible;
+    opacity: 1;
+}
+
+.overlay h6 {
+    color: orange;
+}
+
+.clients {
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    @media (max-width: 992px) {
+        img {
+            margin: 10px;
+        }
+    }
+}
+
+.services {
+    @media (max-width: 600px) {
+        serv {
+            margin: 5px;
+        }
+    }
+}
+
+.code {
+    text-align: center;
+    padding-top: 40px;
+    border: white dotted 1px;
+}
+
+.map {
+    background-color: rgb(195, 193, 193);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.location {
+    padding-top: 30px;
+}
+
+.form {
+    padding-top: 30px;
+    align-items: center;
+    width: 100%;
+}
+
+
+
+.problems {
+    background-color: black;
+    color: white;
+}
+
+.rowcomment textarea {
+    resize: both !important;
+}
+
+input[type="submit"] {
+    background-color: orange;
+    color: white;
+}
+
+.imageswhy {
+    border: 1px solid;
+    width: 73px;
+    height: 79px;
+    padding: 2%;
+    border: 1px solid blue;
+    background-color: rgb(28, 62, 155);
+}
+
+.serviceimages:hover {
+    background-color: blue;
+}
+
+.serv {
+    margin-top: 3%;
+
+}
+
+.submit {
+    margin-top: 3%;
+}
+
+.housing {
+    padding-top: 30%;
+}
+
+.probimg {
+    margin-top: 10%;
+    margin-left: -37%;
+}
+
+.phones button {
+    color: white;
+    text-decoration: none;
+
+}
+
+.phones {
+    padding-bottom: 20px;
+    padding-bottom: 10%;
+}
+
+.projects {
+    margin: 20px;
+    padding-bottom: 30px;
+}
+
+.imagesprojcect {
+    padding-bottom: 2%;
+    position: relative;
+}
+
+.moreprojects {
+    border: solid 1px;
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.moreee button {
+    color: white;
+    text-decoration: none;
+    padding: 7px;
+}
+
+.moreee {
+    padding: 30px;
+}
+
+.services {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+
+.chooseus {
+    padding: 50px;
+}
+
+.years {
+    background-color: grey;
+    padding: 30px;
+}
+
+
+.yearss button {
+    color: white;
+    text-decoration: none;
+    padding: 7px;
+}
+
+.more button {
+    color: white;
+    text-decoration: none;
+    padding: 7px;
+    margin-top: 2%;
+
+}
+
+.projects h1 {
+    padding: 20px;
+}
+
+.more {
+    padding: 30px;
+}
+
+.auhandy {
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+}
+
+.engine {
+    border: blue solid 1px;
+    padding: 25px 10px;
+    margin: 20px ;
+    text-align: center;
+}
+
+.engine:hover {
+    background-color: blue;
+}
+
+.expert {
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+
+
+.banner {
+    padding-left: 50px
+}
+
+.easy img {
+    padding: 10px;
+    margin: 0px 10px 40px 0px;
+    border: 1px solid;
+    background-color: rgb(28, 62, 155);
+}
+
+.comment img {
+    padding: 10px;
+    margin: 0px 10px 40px 0px;
+    border: 1px solid;
+    background-color: rgb(28, 62, 155);
+}
+
+.gift img {
+    padding: 10px;
+    margin: 0px 10px 40px 0px;
+    border: 1px solid;
+    background-color: rgb(28, 62, 155);
+}
+
+.services h3 {
+    margin-bottom: 38px;
+    padding: 20px;
+}
+
+.love img {
+    padding: 10px;
+    margin: 0px 10px 40px 0px;
+    border: 1px solid;
+    background-color: rgb(28, 62, 155);
+}
+
+.why {
+    padding-bottom: 40px;
+}
+
+.row1 {
+    padding-top: 10px;
+}
+
+section.whychoose {
+    padding: 60px;
+}
+
+
+.underline-heading5 {
+    position: relative;
+    display: inline-block;
+}
+
+.underline-heading5::before {
+    content: "";
+    position: absolute;
+    height: 3px;
+    background-color: darkblue;
+    width: 22%;
+    bottom: -10%;
+    left: 1%;
+}
